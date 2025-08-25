@@ -1,0 +1,6 @@
+@BioInsightsPortal.Api_HostAddress = http://localhost:5142
+
+GET {{BioInsightsPortal.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

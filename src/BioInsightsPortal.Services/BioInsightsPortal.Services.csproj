@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\BioInsightsPortal.Data\BioInsightsPortal.Data.csproj" />
+    <ProjectReference Include="..\BioInsightsPortal.Search\BioInsightsPortal.Search.csproj" />
+    <ProjectReference Include="..\BioInsightsPortal.Core\BioInsightsPortal.Core.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="15.0.1" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+</Project>

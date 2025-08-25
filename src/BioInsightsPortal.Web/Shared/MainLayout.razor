@@ -1,0 +1,49 @@
+﻿@* @inherits LayoutComponentBase
+
+<PageTitle>BioInsightsPortal.Web</PageTitle>
+
+<div class="page">
+    <div class="sidebar">
+        <NavMenu />
+    </div>
+
+    <main>
+        <div class="top-row px-4">
+            <a href="https://docs.microsoft.com/aspnet/" target="_blank">About</a>
+        </div>
+
+        <article class="content px-4">
+            @Body
+        </article>
+    </main>
+</div> *@
+@inherits LayoutComponentBase
+
+<div class="page bg-gray-50 min-h-screen font-sans">
+    <div class="sidebar">
+        <NavMenu />
+    </div>
+
+    <main class="container mx-auto p-4 md:p-8">
+        <div class="content">
+            @Body
+        </div>
+    </main>
+</div>
+
+<style>
+    .page {
+        display: flex;
+    }
+
+    .sidebar {
+        width: 250px;
+        background-color: #f8f9fa;
+        padding: 1rem;
+    }
+
+    .content {
+        flex-grow: 1;
+    }
+</style>
+
