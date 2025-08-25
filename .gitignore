@@ -1,0 +1,57 @@
+# Visual Studio
+.vs/
+*.sln.ide/
+*.suo
+*.user
+*.pdb
+*.opensdf
+*.docstates
+
+# Build artifacts
+[Dd]ebug/
+[Rr]elease/
+[Bb]in/
+[Oo]bj/
+*.log
+*.tmp
+*.bak
+*.cache
+*.xcf
+*.pid
+[Tt]humbs.db
+*.sln.docstates
+
+# C#
+*.csproj.user
+*.resharper
+*.resharper.user
+*.suo
+*.userprefs
+*.DS_Store
+
+# Packages and dependencies
+packages/
+node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# Visual Studio Code
+.vscode/
+
+# Rider
+.idea/
+
+# Dotnet temp files
+*.tmp
+*.csproj.user
+*.cs.user
+*.vshost.exe
+*.vshost.exe.config
+*.webtest
+*.webtest.config
+
+# Blazor WebAssembly
+wwwroot/
+
+# Exclude infrastructure data folder and all its contents
+infrastructure/data/
